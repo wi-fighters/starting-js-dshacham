@@ -1,0 +1,7 @@
+### 1. > var firstName = 'Dana';
+undefined
+> var lastName = 'Shacham';
+undefined
+> console.log(firstName,lastName);
+Dana Shacham
+undefined
