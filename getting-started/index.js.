@@ -18,3 +18,8 @@ undefined
 undefined
 > var favAnimal = 'cats';
 undefined
+
+### 3.
+> console.log(fullName + ' is a ' + myAge + ' year old ' + myJob + ' who lives in ' + myCity + ' and loves ' + favAnimal);
+Dana Shacham is a 32 year old student who lives in Berlin and loves cats
+undefined
