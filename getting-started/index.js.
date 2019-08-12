@@ -1,7 +1,20 @@
-### 1. > var firstName = 'Dana';
+### 1.
+> var firstName = 'Dana';
 undefined
 > var lastName = 'Shacham';
 undefined
 > console.log(firstName,lastName);
 Dana Shacham
+undefined
+
+### 2.
+> var fullName = 'Dana Shacham';
+undefined
+> var myAge = 32;
+undefined
+> var myJob = 'student';
+undefined
+> var myCity = 'Berlin';
+undefined
+> var favAnimal = 'cats';
 undefined
