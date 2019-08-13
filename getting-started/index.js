@@ -46,3 +46,19 @@ let c = 425;
 console.log(a === b);
 console.log(b === c);
 console.log(c === a);
+
+console.log(typeof (a === b));
+
+//8
+let programmingLanguage = 'JavaScript';
+let isFun = true;
+console.log(programmingLanguage + ' is fun: ' + isFun);
+
+//9
+let test;
+console.log(typeof test);
+//undefined since it doesn't have a value assigned to it.
+
+//10
+let calculation = (2+5)*4+8/3;
+console.log('Calculation result:', calculation);
