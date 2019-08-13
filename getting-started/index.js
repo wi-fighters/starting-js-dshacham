@@ -38,3 +38,11 @@ let whoIsOlder = ageMark > ageJohn;
 
 console.log('Mark is older than John:', whoIsOlder);
 
+//7
+let a = 345;
+let b = 935;
+let c = 425;
+
+console.log(a === b);
+console.log(b === c);
+console.log(c === a);
