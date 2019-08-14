@@ -17,13 +17,11 @@ const drinkAge = (personAge >= legalAge) ? `Here's some wine.` : `Here's some ju
 console.log(drinkAge);
 
 // 4
-const ticketDiscount = 'Student';
-let personJob = 'Doctor';
-const isStudent = (ticketDiscount === personJob) ? `Ticket costs €5,00.` : `Ticket costs €12,00.`;
+const student = true;
+const isStudent = (student) ? `Ticket costs €5,00.` : `Ticket costs €12,00.`;
 console.log(isStudent);
 
 // 5
-const greetingTime = 'Morning';
-let whatTime = 'Morning';
-const timeOfDay = (whatTime === greetingTime) ? `Good Morning.` : `Good Evening.`;
+const morning = true;
+const timeOfDay = (morning) ? `Good Morning.` : `Good Evening.`;
 console.log(timeOfDay);
