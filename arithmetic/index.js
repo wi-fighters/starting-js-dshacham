@@ -29,10 +29,10 @@ let result5 = 5+6+7;
 console.log(result5+'cm');
 
 let result6 = 5*5;
-console.log(result6+'cm');
+console.log(`The area of the square is ${result6}sqm`);
 
-let result7 = 9*3;
-console.log(result7 + 'cm');
+let result7 = 9*9*9;
+console.log(`The volume of the cube is ${result7}sqm`);
 
 //7
 console.log(6450/15);
