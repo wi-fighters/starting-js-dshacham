@@ -1,0 +1,3 @@
+The arithmetic operators allow mathematical calculations.
+The operands in this case are numbers, and the operators are +, -, *, / and %.
+The usage of variables is possible and could facilitate the calculation of the exercise.
