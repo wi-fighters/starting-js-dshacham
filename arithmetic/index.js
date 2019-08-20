@@ -1,40 +1,59 @@
-//1
-let result = (17 / 100) * 30;
-console.log(result);
+// 1
+const stringOne = 'this sucks';
+console.log(stringOne.length); // 10
+console.log(stringOne[1]);
+console.log(stringOne[5]);
 
-//2
-let elmt = [8+6+5+9+8+2+1+8.5+7+4]
-console.log(elmt / 10);
+// 2
+const ex2 = 'JavaScript';
+console.log(ex2.length); // 10
+console.log(ex2[0]);
+console.log(ex2[4]);
 
-//3
-let result2 = 6*85-75-70-85-90-100;
-console.log(result2);
+// 3
+const ex3 = 'I can walk in the park all day!';
+console.log(ex3.substring(18, 22));
 
-//4
-let first = 8*78;
-let second = 9*80;
-let result3 = second - first;
-console.log(result3);
+// 4
+const ex4 = 'JavaScript';
+console.log(ex4.substring(3, 6));
 
-//5
-console.log(22.35/100*10 + 22.35);
-console.log(26.67/100*15 + 26.67);
-console.log(35.92/100*20 + 35.92);
+// 5
+const ex5 = 'Hello World';
+console.log(ex5.toUpperCase());
 
-//6
-let result4 = 4.75*4;
-console.log(result4+'cm');
+// 6
+const ex6 = 'Hello Earthling';
+console.log(ex6.toLowerCase());
 
-let result5 = 5+6+7;
-console.log(result5+'cm');
+// 7
+const ex7 = 'nice shoes';
+console.log(ex7.includes("l"));
+console.log(ex7.includes("n"));
 
-let result6 = 5*5;
-console.log(`The area of the square is ${result6}sqm`);
+//8
+const ex8 = 'JavaScript';
+console.log(`${ex8[0]}${ex8}${ex8[0]}`);
 
-let result7 = 9*9*9;
-console.log(`The volume of the cube is ${result7}sqm`);
+//9
+const ex9 = 'JavaScript';
+console.log(`${ex9.substring(7)}${ex8}${ex9.substring(7)}`);
 
-//7
-console.log(6450/15);
+//10
+const ex10 = 'JavaScript';
+console.log(ex10.toUpperCase()); 
+console.log(ex10.includes('Java'));
 
-console.log(500*52);
+//11
+const ex11 = 'JavaScript';
+console.log(`${ex11[9]}${ex11.substring(1,9)}${ex11[0]}`);
+
+//12
+const firstName = 'Dana';
+const myCity = 'Berlin';
+const myHobby = 'listening to music';
+console.log(`My name is ${firstName}, I live in ${myCity} and my hobby is ${myHobby}.`);
+
+//13
+const ex13 = 'the quick brown fox';
+console.log(ex13.charAt(0).toUpperCase() + ex13.slice(1));
