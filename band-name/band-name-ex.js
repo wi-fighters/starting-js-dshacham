@@ -92,6 +92,8 @@
 // console.log(generateBandName('bLuE', 'baGLE'));
 
 // 4
+console.log(makeTasty('red'));
+
 function makeTasty(color) {
     let fruitColor = '';
 
@@ -123,6 +125,5 @@ function makeTasty(color) {
     return fruitColor;
 }
 
-console.log(makeTasty('red'));
 console.log(makeTasty('Purple'));
 console.log(makeTasty('blue'));
