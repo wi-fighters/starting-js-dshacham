@@ -53,6 +53,7 @@
 //     return bandName;
 // }
 // console.log(generateBandName('gRay', 'APRICOT'));
+// +
 // function generateBandName(clothingColor, lastFoodEaten) {
 //     let bandName = '';
 
@@ -63,6 +64,7 @@
 
 //     return bandName;
 // }
+
 // function capitalizeColor(clothingColor) {
 //     return clothingColor[0].toUpperCase() + clothingColor.slice(1).toLowerCase()
 // }
@@ -94,21 +96,27 @@ function makeTasty(color) {
     let fruitColor = '';
 
     switch (color) {
-        case 'red' || 'Red':
+        case 'red':
+        case 'Red':
             return 'Chilli';
             break;
-        case 'orange' || 'Orange':
+        case 'orange':
+        case 'Orange':
             return 'Tangerine';
             break;
-        case 'yellow' || 'Yellow':
+        case 'yellow':
+        case 'Yellow':
             return 'Pineapple';
-        case 'green' || 'Green':
+        case 'green':
+        case 'Green':
             return 'Sage';
             break;
-        case 'blue' || 'Blue':
+        case 'blue':
+        case 'Blue':
             return 'Blueberry';
             break;
-        case 'purple' || 'Purple':
+        case 'purple':
+        case 'Purple':
             return 'Plum';
     }
 
@@ -116,5 +124,5 @@ function makeTasty(color) {
 }
 
 console.log(makeTasty('red'));
-console.log(makeTasty('purple'));
+console.log(makeTasty('Purple'));
 console.log(makeTasty('blue'));
