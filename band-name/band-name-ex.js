@@ -43,15 +43,37 @@
 
 // console.log(generateBandName('BLACK', 'pasta'));
 
-function capitalizeColor(clothingColor) {
-    const capiCol = '';
-    return `The ${clothingColor[0].toUpperCase() + lastFoodEaten.slice(1).toLowerCase}`;
+// function generateBandName(clothingColor, lastFoodEaten) {
+//     let bandName = '';
+
+//     let color = capitalizeColor(clothingColor);
+//     let food = capitalizeFood(lastFoodEaten);
+
+//     bandName = `The ${color} ${food}!`;
+
+//     return bandName;
+// }
+
+// function capitalizeColor(clothingColor) {
+//     return clothingColor[0].toUpperCase() + clothingColor.substr(1).toLowerCase();
+// }
+
+// function capitalizeFood(lastFoodEaten) {
+//     return lastFoodEaten[0].toUpperCase() + lastFoodEaten.substr(1).toLowerCase();
+// }
+// console.log(generateBandName("blACK", "saLad"));
+
+function generateBandName(clothingColor, lastFoodEaten) {
+    let bandName = '';
+
+    let color = capitalizeInitial(clothingColor);
+    let food = capitalizeInitial(lastFoodEaten);
+
+    return `The ${color} ${food}`;
 }
 
-function capitalizeFood(lastFoodEaten) {
-    const capiFood = '';
-    return `${lastFoodEaten[0].toUpperCase() + lastFoodEaten.slice(1).toLowerCase}`;
+function capitalizeInitial(capitalize) {
+    return capitalize[0].toUpperCase() + capitalize.slice(1).toLowerCase()
 }
 
-console.log(capitalizeColor('rED'));
-console.log(capitalizeFood('stEw'));
+console.log(generateBandName('bLuE', 'baGLE'));
