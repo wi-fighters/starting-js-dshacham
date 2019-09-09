@@ -76,23 +76,23 @@
 // console.log(generateBandName('piNK', 'PEACH'));
 
 // 3
-// function generateBandName(clothingColor, lastFoodEaten) {
-//     let bandName = '';
+function generateBandName(clothingColor, lastFoodEaten) {
+    let bandName = '';
 
-//     const color = capitalizeInitial(clothingColor);
-//     const food = capitalizeInitial(lastFoodEaten);
+    const capitalize = function (rawString) {
+        return rawString[0].toUpperCase() + rawString.substr(1).toLowerCase();
+    };
 
-//     return `The ${color} ${food}`;
-// }
+    const color = capitalize(makeTasty(clothingColor));
+    const food = capitalize(lastFoodEaten);
 
-// function capitalizeInitial(capitalize) {
-//     return capitalize[0].toUpperCase() + capitalize.slice(1).toLowerCase()
-// }
+    bandName = `The ${color} ${food}`;
+    return bandName;
+}
 
-// console.log(generateBandName('bLuE', 'baGLE'));
+console.log(generateBandName('blue', 'baGLE'));
 
 // 4
-console.log(makeTasty('red'));
 
 function makeTasty(color) {
     let fruitColor = '';
