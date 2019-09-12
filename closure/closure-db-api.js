@@ -20,12 +20,36 @@
 
 // Part one: refactor`init`
 
+// const init = () => {
+//     let api = [];
+
+//     const create = (element) => {
+//         api.push(element);
+//         return api.length;
+//     }
+
+//     return create;
+// }
+
+// const createInApi = init();
+
+// console.log(createInApi('testing'));
+// console.log(createInApi(4));
+// console.log(createInApi('how long is this'));
+
+// Part two: add`read`
+
 const init = () => {
     let api = [];
 
     const create = (element) => {
         api.push(element);
-        return api.length;
+
+        const read = () => {
+            const arr = [...api];
+            return arr;
+        }
+        return read;
     }
 
     return create;
@@ -33,6 +57,6 @@ const init = () => {
 
 const createInApi = init();
 
-console.log(createInApi('testing'));
-console.log(createInApi(4));
-console.log(createInApi('how long is this'));
+console.log(createInApi('testing')());
+console.log(createInApi(4)());
+console.log(createInApi('how long is this')());
