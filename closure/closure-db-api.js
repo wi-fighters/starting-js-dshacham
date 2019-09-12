@@ -40,14 +40,16 @@
 // Part two: add`read`
 
 const init = () => {
-    let api = [];
+    let db = [1, 2, 3];
+    // let api = [1, 2, 3];
 
     const create = (element) => {
-        api.push(element);
+        db.push(4);
 
         const read = () => {
-            const arr = [...api];
-            return arr;
+            let array = [...db];
+
+            return array;
         }
         return read;
     }
@@ -57,6 +59,6 @@ const init = () => {
 
 const createInApi = init();
 
-console.log(createInApi('testing')());
-console.log(createInApi(4)());
-console.log(createInApi('how long is this')());
+// console.log(createInApi()());
+// console.log(createInApi()());
+console.log(createInApi()());
